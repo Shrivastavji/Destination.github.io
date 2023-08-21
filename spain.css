@@ -1,0 +1,144 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('spain1.jpg');
+    background-size: cover;
+}
+#but{
+    position: absolute;
+    left: 90%;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+}
+h1{
+    font-size: 55px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+#text{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+#black{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 125%;
+    margin-left: -8px;
+}
+#img1{
+    position: absolute;
+    top: 55px;
+    left: 60%;
+}
+#img2{
+    position: absolute;
+    top: 495px;
+    left: 2%;
+}
+#text1{
+    color: white;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#Italian1{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+#Italian2{
+    position: absolute;
+    top: 450px;
+    right: 150px;
+}
+#text2{
+    position: absolute;
+    top: 600px;
+    text-align: right;
+    right: 150px;
+    color: white;
+    font-size: 25px;
+}
+hr{
+    margin-top: 20px;
+}
+@media (max-width: 640px) {
+    body{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('spain11.jpg');
+        background-size: cover;
+        max-width: 100%;
+    }
+    #but{
+        position: absolute;
+        left: 80%;
+        width: 65px;
+        height: 25px;
+        font-size: 14px;
+    }
+    #black{
+        width: 100%;
+        height: 130%;
+        background-color: black;
+        position: absolute;
+        top: 62%;
+        margin-left: -8px;
+    }
+    #text{
+        color: white;
+        font-size: 12px;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+    }
+    #text2{
+        position: absolute;
+        top: 680px;
+        text-align: right;
+        right: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    #text1{
+        color: white;
+        font-size: 15px;
+        padding-left: 30px;
+        padding-top: 180px;
+    }
+    h1{
+        font-size: 30px;
+        color: white;
+    }
+    #hr2{
+        margin-top: -35px;
+    }
+    #Italian1{
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    #Italian2{
+        position: absolute;
+        top: 470px;
+        right: 10px;
+        font-size: 25px;
+    }
+    #img1{
+        position: absolute;
+        width: 220px;
+        height: 150px;
+        top: 95px;
+        left: 35%;
+    }
+    #img2{
+        position: absolute;
+        top: 515px;
+        left: 2%;
+        width: 220px;
+        height: 150px;
+    }
+}

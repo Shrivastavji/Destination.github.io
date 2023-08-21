@@ -1,0 +1,215 @@
+body{
+    background-size: cover; background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('1.jpg');
+}
+#italy{
+    width: 500px;
+    height: 350px;   
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+#italy:hover{
+    outline: 8px solid rgb(0, 0, 0);
+    outline-offset: 5px;
+    outline-color: white;
+}
+#white1{
+    background-color: white;
+    opacity: 0;
+    visibility: none;
+    position: absolute; 
+    top: -30px;
+    width: 100%;
+    height: 80%;
+    font-size: 24px;
+    transform: translateY(0);
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#italy:hover #white1{
+    transform: translateY(50px);
+    visibility: visible;
+    opacity: 1;
+}
+#spain{
+    width: 500px;
+    height: 350px; 
+    background-size: cover;
+    position: absolute;
+    top: 20px;
+    left: 60%;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+#spain:hover{
+    outline: 8px solid rgb(0, 0, 0);
+    outline-offset: 5px;
+    outline-color: white;
+}
+#white2{
+    background-color: white;
+    opacity: 0;
+    visibility: none;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    height: 80%;
+    font-size: 24px;
+    transform: translateY(0);
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#spain:hover #white2{
+    transform: translateY(50px);
+    visibility: visible;
+    opacity: 1;
+}
+#india{
+    width: 500px;
+    height: 350px;
+    background-size: cover;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+#india:hover{
+    outline: 8px solid rgb(0, 0, 0);
+    outline-offset: 5px;
+    outline-color: white;
+}
+#white3{
+    background-color: white;
+    opacity: 0;
+    visibility: none;
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    height: 80%;
+    font-size: 24px;
+    transform: translateY(0);
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#india:hover #white3{
+    transform: translateY(50px);
+    visibility: visible;
+    opacity: 1;
+}
+@media (max-width: 640px) {
+    body{
+        max-height: 100%;
+        max-width: 100%;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('11.jpg');
+    }
+    #italy{
+        width: 250px;
+        height: 150px;   
+        background-size: cover;
+        position: relative;
+        top: 20px;
+        left: 25px;
+        background-color: white;
+        transition: 0.3s;
+        border-radius: 20px;
+    }
+    #italy:hover{
+        outline: 8px solid rgb(0, 0, 0);
+        outline-offset: 5px;
+        outline-color: white;
+    }
+    #white1{
+        background-color: white;
+        opacity: 0;
+        visibility: none;
+        position: absolute; 
+        top: 0px;
+        width: 100%;
+        height: 60%;
+        font-size: 12px;
+        transform: translateY(0);
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #italy:hover #white1{
+        transform: translateY(60px);
+        visibility: visible;
+        opacity: 1;
+    }
+    #spain{
+        width: 250px;
+        height: 150px; 
+        background-size: cover;
+        position: absolute;
+        top: 33%;
+        left: 25%;
+        background-color: white;
+        transition: 0.3s;
+        border-radius: 20px;
+    }
+    #spain:hover{
+        outline: 8px solid rgb(0, 0, 0);
+        outline-offset: 5px;
+        outline-color: white;
+    }
+    #white2{
+        background-color: white;
+        opacity: 0;
+        visibility: none;
+        position: absolute; 
+        top: 0px;
+        width: 100%;
+        height: 70%;
+        font-size: 12px;
+        transform: translateY(0);
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #spain:hover #white2{
+        transform: translateY(50px);
+        visibility: visible;
+        opacity: 1;
+    }
+    #india{
+        width: 250px;
+        height: 150px;
+        background-size: cover;
+        position: absolute;
+        top: 60%;
+        left: 25px;
+        background-color: white;
+        transition: 0.3s;
+        border-radius: 20px;
+    }
+    #india:hover{
+        outline: 8px solid rgb(0, 0, 0);
+        outline-offset: 5px;
+        outline-color: white;
+    }
+    #white3{
+        background-color: white;
+        opacity: 0;
+        visibility: none;
+        position: absolute; 
+        top: 0px;
+        width: 100%;
+        height: 70%;
+        font-size: 12px;
+        transform: translateY(0);
+        transition: 0.3s;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #india:hover #white3{
+        transform: translateY(50px);
+        visibility: visible;
+        opacity: 1;
+    }
+}
